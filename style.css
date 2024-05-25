@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header {
+    width: 1440px;
+    height: 650px;
+    background-image: url(./backgroung-img/o.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 20px 20px;
+}
+.logo h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -2px;
+    word-spacing: -2px;
+}
+.logo img {
+    width: 35px;
+    height: 45px;
+    margin-right: 10px;
+}
+.search-bar{
+    width: 700px;
+    height: 60px;
+    display: flex;
+    margin-right: 10px;
+}
+.bar{
+    width: 46%;
+    height: 100%;
+    border-right: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.search-icon{
+    width: 8%;
+    height: 100%;
+    background-color: #E00707;
+    cursor: pointer;
+}
+.bar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 20px;
+}
+.fa-magnifying-glass{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+.review{
+    width: 28%;
+    height: 60px;
+    display: flex;
+}
+.yelp-busines{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: -2px;
+    display: flex;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.fa-chevron-down{
+    margin-top: 8px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+.write-review{
+    width: 45%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+:hover.yelp-busines, :hover.write-review{
+    background-color: lightgray;
+}
+.btn{
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    width: 45%;
+    height: 100%;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+:hover.log{
+    background-color: lightgray;
+}
+.sign{
+    width: 45%;
+    height: 100%;
+    background-color: #E00707;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.services-links{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+}
+.services-links ul{
+    display: flex;
+    margin-left: 100px;
+    list-style: none;
+}
+.services-links ul li{
+    margin-left: 30px;
+    font-size: 17px;
+    color: white;
+}
+.content{
+    width: 85%;
+    height: 300px;
+    margin: 50px auto;
+    /* border-left: 30px dashed white; */
+}
+.content h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color: white;
+}
+.btn-handyman{
+    width: 200px;
+    height: 70px;
+    background-color: #E00707;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+.Handyman{
+    font-size: 30px;
+}
+.main{
+    width: 85%;
+    height: 1100px;
+    margin: 0 auto;
+}
+.activity{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
+.activity h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.activity-div-1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.activity-box{
+    width: 380px;
+    height: 450px;
+    border: 1px solid gray;
+}
+.picture-name{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 5px;
+}
+.picture-1{
+    width: 20%;
+    height: 100%;
+    background-image: url(./user/1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.picture-2{
+    width: 20%;
+    height: 100%;
+    background-image: url(./user/2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.picture-3{
+    width: 20%;
+    height: 100%;
+    background-image: url(./user/3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.name-1, .name-2, .name-3{
+    width: 80%;
+    height: 100%;
+}
+.name-1 h1, .name-2 h1, .name-3 h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.name-1 h2, .name-2 h2, .name-3 h2{
+    font-size: 20px;
+    color: gray;
+}
+.review-pic-1{
+    width: 100%;
+    height: 200px;
+    background-image: url(./review/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review-pic-2{
+    width: 100%;
+    height: 200px;
+    background-image: url(./review/2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.review-pic-3{
+    width: 100%;
+    height: 200px;
+    background-image: url(./review/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review-content{
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+}
+.review-content h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.review-content p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.imoji-coment{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+.imoji-coment ul{
+    display: flex;
+    justify-content: space-between;
+}
+.imoji-coment ul li{
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.categories{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid gray;
+}
+.categories h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.categories-cards{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.resturent, .shoping, .nightlife, .more{
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.categories-icon{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.fa-utensils, .fa-cart-shopping, .fa-star, .more{
+    font-size: 50px;
+    color: #E00707;
+}
+.card-name{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+}
+.card-name h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+:hover.resturent, :hover.shoping, :hover.nightlife, :hover.more{
+    box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 700px;
+    background-color: #F7F7F7;
+}
+.footer-box{
+    display: flex;
+    justify-content:space-evenly ;    
+}
+.a{
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+}
+.a h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.a ul li{
+    list-style: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+.copyright{
+    margin-left: 80px;
+}
